@@ -1,0 +1,395 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.11f1 (6a1e21c61430) revision 6954529'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit ProfessionalEducation' Language: 'pt' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/2jd/Desktop/monster
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50440
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/2jd/Desktop/monster
+C:/Users/2jd/Desktop/monster
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25068] Host "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 740674922 [EditorId] 740674922 [Version] 1048832 [Id] WindowsEditor(7,PCLAB3-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25068] Host "[IP] 192.168.1.35 [Port] 0 [Flags] 2 [Guid] 740674922 [EditorId] 740674922 [Version] 1048832 [Id] WindowsEditor(7,PCLAB3-04) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.11f1 (6a1e21c61430)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/2jd/Desktop/monster/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1636)
+    Vendor:   ATI
+    VRAM:     7870 MB
+    Driver:   30.0.14030.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002065 seconds.
+- Loaded All Assemblies, in  0.370 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.298 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\2jd\Desktop\monster\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\2jd\Desktop\monster\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.738 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.529 seconds
+Domain Reload Profiling: 1265ms
+	BeginReloadAssembly (316ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3700.
+Memory consumption went from 115.1 MB to 114.3 MB.
+Total: 4.835900 ms (FindLiveObjects: 0.431000 ms CreateObjectMapping: 0.145200 ms MarkObjects: 3.459400 ms  DeleteObjects: 0.798200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 506244.189579 seconds.
+  path: Assets/Skeleton_Ghost/Documentation/Documentation.txt
+  artifactKey: Guid(46230a48020bafa489ef26d5de1a5f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Documentation/Documentation.txt using Guid(46230a48020bafa489ef26d5de1a5f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '682721be8932c93a7ce2dba05d2c3ad4') in 0.0162691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.525830 seconds.
+  path: Assets/Skeleton_Ghost/Materials/Body
+  artifactKey: Guid(a79364635bbad3c40a12413e8451c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Materials/Body using Guid(a79364635bbad3c40a12413e8451c01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54bb458acea0ac357459b744756ae564') in 0.0005224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.238360 seconds.
+  path: Assets/Skeleton_Ghost/Materials/Head_01
+  artifactKey: Guid(e081f30db6ad4094190bfc391e069c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Materials/Head_01 using Guid(e081f30db6ad4094190bfc391e069c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc76422496a7e706013f7212a05edb05') in 0.0005258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.598295 seconds.
+  path: Assets/Skeleton_Ghost/Materials/Others
+  artifactKey: Guid(54fd17d9213e6574c9be82d98f80947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Materials/Others using Guid(54fd17d9213e6574c9be82d98f80947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '646f0fd1b7f5cbbeeeb65b4b0f8e2a79') in 0.0005105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.775489 seconds.
+  path: Assets/Skeleton_Ghost/Materials/Pant
+  artifactKey: Guid(a237a2014a5a83d419bf4b58d5fdcd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Materials/Pant using Guid(a237a2014a5a83d419bf4b58d5fdcd91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd8037e0cba27c1dee94e08919a7be7e') in 0.0004781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.578848 seconds.
+  path: Assets/Skeleton_Ghost/Prefabs
+  artifactKey: Guid(4c16c1a87ef33af4e934b6798b202e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Prefabs using Guid(4c16c1a87ef33af4e934b6798b202e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cccda2a41359b984ca2650690023542') in 0.0005028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201715 seconds.
+  path: Assets/Skeleton_Ghost/Prefabs/S1.prefab
+  artifactKey: Guid(85812cb051453cb4eb28140e0c218334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Prefabs/S1.prefab using Guid(85812cb051453cb4eb28140e0c218334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cf1acb6a83c8354d675542bf5c27626') in 0.4345173 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 410.067715 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f34163397d7a73dad3366c662ac23692') in 0.000766 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.731340 seconds.
+  path: Assets/imagens
+  artifactKey: Guid(9807adf9baf6ebb4abe4b50f5e574ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imagens using Guid(9807adf9baf6ebb4abe4b50f5e574ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8e7672a31f555742ca1e6c92a89b0b4') in 0.0005368 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.999123 seconds.
+  path: Assets/imagens/trem.jpg
+  artifactKey: Guid(8df800777818da94dae2f0c31e63be21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imagens/trem.jpg using Guid(8df800777818da94dae2f0c31e63be21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd0f6a64481c1db0120446f0e4913d55') in 0.0236203 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.300335 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(105980a02d153904792918d8c59807be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(105980a02d153904792918d8c59807be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d860e564f6262ac978fcf553901dd8') in 0.037742 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.049182 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Head/Head_02/Head2.png
+  artifactKey: Guid(019f00277acc5cc4898a52d4f2ae978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Head/Head_02/Head2.png using Guid(019f00277acc5cc4898a52d4f2ae978e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a513a41b12ff238695cbfd55d450003') in 0.0192689 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Body/Body_03/S2 Base.png
+  artifactKey: Guid(bed5b8bd8a5526749aa899098bb761dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Body/Body_03/S2 Base.png using Guid(bed5b8bd8a5526749aa899098bb761dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45d6f89dc6196995665777de60fa4e9a') in 0.0190598 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Head/Head_01/Skeleton 1_Head_1_3_AlbedoTransparency.png
+  artifactKey: Guid(6553cd34553fde548b6057a6ea17423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Head/Head_01/Skeleton 1_Head_1_3_AlbedoTransparency.png using Guid(6553cd34553fde548b6057a6ea17423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb12af3bc252efccd1b2df02d47d5f8c') in 0.0192507 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Head/Head_01/Skeleton 1_Head_1_3_MetallicSmoothness.png
+  artifactKey: Guid(4bbd9df8fb09f8448918d2086d20ba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Head/Head_01/Skeleton 1_Head_1_3_MetallicSmoothness.png using Guid(4bbd9df8fb09f8448918d2086d20ba1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb98017a38160bc55bdad161737c0bb1') in 0.0213415 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.483166 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Head/Head_01/Skeleton 1_Head_1_3_Normal.png
+  artifactKey: Guid(5c48cae2dfc062b4c9b4ba8cc7d61e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Head/Head_01/Skeleton 1_Head_1_3_Normal.png using Guid(5c48cae2dfc062b4c9b4ba8cc7d61e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52756170fbf5e0ea857328e796ced283') in 0.0330231 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032858 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Pant/Pant_02/Skeleton 1_S_Pant_AlbedoTransparency.png
+  artifactKey: Guid(1badb1f3969596d4fbddf3b62abd2dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Pant/Pant_02/Skeleton 1_S_Pant_AlbedoTransparency.png using Guid(1badb1f3969596d4fbddf3b62abd2dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '710f59e3ad5e9556a5bca74665846747') in 0.0159494 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Skeleton_Ghost/Textures/Pant/Pant_01/Skeleton 1_S_Pant_AlbedoTransparency.png
+  artifactKey: Guid(c249b2435b1719c4996bfe8904f1ef38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skeleton_Ghost/Textures/Pant/Pant_01/Skeleton 1_S_Pant_AlbedoTransparency.png using Guid(c249b2435b1719c4996bfe8904f1ef38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f6a153b530fe076cc3869420977c45') in 0.017772 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.309591 seconds.
+  path: Assets/imagens/Materials
+  artifactKey: Guid(a1824d33fcbb8b54cb0dad2feff1c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imagens/Materials using Guid(a1824d33fcbb8b54cb0dad2feff1c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72c317d29a2f7bbffb4ee408d2715a51') in 0.0006782 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156154 seconds.
+  path: Assets/imagens/Materials/trem.mat
+  artifactKey: Guid(d85bccbbeed25a042b46ccb34f6fbd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imagens/Materials/trem.mat using Guid(d85bccbbeed25a042b46ccb34f6fbd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '297f63ca705c7c6fb15548dfcdbfddce') in 0.017031 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.020495 seconds.
+  path: Assets/imagens/metal.png
+  artifactKey: Guid(9879b5b6423d60342a7734a8301cfc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/imagens/metal.png using Guid(9879b5b6423d60342a7734a8301cfc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd84f047c485eb5da785c24114309475') in 0.0182314 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
