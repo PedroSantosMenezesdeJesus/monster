@@ -4,41 +4,52 @@ using UnityEngine;
 
 public class movimento : MonoBehaviour
 {
-    Vector3 m;
+    public float speed = 5.0f;
+    public float gravity = -9.81f;
+    public float jumpHeight = 1.5f;
+    public float jumpSpeedMultiplier = 2.0f;
+
+    private CharacterController controller;
+    private Vector3 velocity;
+    private bool isGrounded;
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< HEAD
-        m = new Vector3(3, 7, -110);
-=======
-        m = new Vector3(0, 6, -4);
->>>>>>> 6978ee4ede507a02b7ee53d5aea822cd2c63bcf2
-        transform.position = m;
-        m.Set(0, 0, 0);
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        isGrounded = controller.isGrounded;
+        if (isGrounded && velocity.y < 0)
         {
-            m.z = 0.25f;
-            transform.Translate(m);
+            velocity.y = -2f;
         }
-        if (Input.GetKey(KeyCode.A))
+
+        float moveZ = Input.GetAxis("Horizontal");
+
+        Vector3 move = transform.forward * moveZ;
+
+        controller.Move(move * speed * Time.deltaTime);
+
+        velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
+
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            m.z = -0.25f;
-            transform.Translate(m);
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
-        if (Input.GetKey(KeyCode.Space))
+
+        if (velocity.y > 0)
         {
-<<<<<<< HEAD
-            m.y = 0.050f;
-=======
-            m.y = 0.025f;
->>>>>>> 6978ee4ede507a02b7ee53d5aea822cd2c63bcf2
-            transform.Translate(m);
+            controller.Move(Vector3.up * velocity.y * jumpSpeedMultiplier * Time.deltaTime);
         }
-        m.Set(0, 0, 0);
+        else
+        {
+            velocity.y += gravity * Time.deltaTime;
+            controller.Move(velocity * Time.deltaTime);
+        }
     }
 }
