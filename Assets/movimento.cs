@@ -8,7 +8,11 @@ public class movimento : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< HEAD
         m = new Vector3(3, 7, -110);
+=======
+        m = new Vector3(0, 6, -4);
+>>>>>>> 6978ee4ede507a02b7ee53d5aea822cd2c63bcf2
         transform.position = m;
         m.Set(0, 0, 0);
     }
@@ -28,7 +32,11 @@ public class movimento : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.Space))
         {
+<<<<<<< HEAD
             m.y = 0.050f;
+=======
+            m.y = 0.025f;
+>>>>>>> 6978ee4ede507a02b7ee53d5aea822cd2c63bcf2
             transform.Translate(m);
         }
         m.Set(0, 0, 0);
